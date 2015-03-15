@@ -1,4 +1,4 @@
-﻿Log file open, 03/10/15 18:08:53
+﻿Log file open, 03/15/15 18:19:19
 LogInit:Display: Running engine for game: EvolveProject
 LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -6,1017 +6,337 @@ LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
-LogInit: Command line: 
+LogInit: Command line:  
 LogInit: Base directory: D:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.03.10-17.08.53:194][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.03.10-17.08.53:247][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.03.10-17.08.53:257][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.03.10-17.08.53:268][  0]LogInit: Object subsystem initialized
-[2015.03.10-17.08.53:282][  0]LogInit: Selected Device Profile: [Windows]
-[2015.03.10-17.08.53:282][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.03.10-17.08.53:289][  0]LogInit: Computer: STARTOP-W230ST
-[2015.03.10-17.08.53:289][  0]LogInit: User: Andreas
-[2015.03.10-17.08.53:289][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.03.10-17.08.53:289][  0]LogInit: High frequency timer resolution =2.338336 MHz
-[2015.03.10-17.08.53:289][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
-[2015.03.10-17.08.53:289][  0]LogMemory: Platform Memory Stats for Windows
-[2015.03.10-17.08.53:289][  0]LogMemory: Process Physical Memory: 46.14 MB used, 46.14 MB peak
-[2015.03.10-17.08.53:289][  0]LogMemory: Process Virtual Memory: 24.84 MB used, 24.93 MB peak
-[2015.03.10-17.08.53:289][  0]LogMemory: Physical Memory: 5474.59 MB used, 16304.36 MB total
-[2015.03.10-17.08.53:289][  0]LogMemory: Virtual Memory: 287.97 MB used, 134217728.00 MB total
-[2015.03.10-17.08.53:456][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M      (Feature Level 11_0)
-[2015.03.10-17.08.53:456][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
-[2015.03.10-17.08.53:472][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M      (Feature Level 11_0)
-[2015.03.10-17.08.53:472][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.03.10-17.08.53:473][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.03.10-17.08.53:473][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
-[2015.03.10-17.08.53:473][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.03.10-17.08.53:478][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.03.10-17.08.53:490][  0]LogD3D11RHI: Async texture creation enabled
-[2015.03.10-17.08.53:556][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.03.10-17.08.53:708][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.03.10-17.08.56:109][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.10-17.08.56:639][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.10-17.08.56:690][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.03.10-17.08.56:738][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Andreas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.10-17.08.56:738][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Andreas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.03.10-17.08.56:738][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../workspace/Evolve/EvolveProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.03.10-17.08.56:738][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.03.10-17.08.56:872][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.03.10-17.08.56:885][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andreas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.03.10-17.08.57:198][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.03.10-17.08.57:198][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.03.10-17.08.57:648][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.03.10-17.08.57:712][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.03.10-17.08.58:608][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.03.10-17.08.58:788][  0]SourceControl: Info Source control is disabled
-[2015.03.10-17.08.58:788][  0]SourceControl: Info Source control is disabled
-[2015.03.10-17.08.58:788][  0]SourceControl: Info Source control is disabled
-[2015.03.10-17.08.58:788][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.03.10-17.08.58:788][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.03.10-17.08.58:795][  0]SourceControl: Info Source control is disabled
-[2015.03.10-17.08.58:959][  0]LogObj: 24231 objects as part of root set at end of initial load.
-[2015.03.10-17.08.58:959][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
-[2015.03.10-17.08.59:043][  0]LogEngine: Initializing Engine...
-[2015.03.10-17.09.01:249][  0]LogInit: XAudio2 using 'Högtalare (Logitech G35 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
-[2015.03.10-17.09.01:262][  0]LogInit: FAudioDevice initialized.
-[2015.03.10-17.09.01:297][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.03.10-17.09.01:322][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Andreas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.10-17.09.01:328][  0]LogInit: Texture streaming: Enabled
-[2015.03.10-17.09.01:447][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.03.10-17.09.01:447][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
-[2015.03.10-17.09.01:447][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
-[2015.03.10-17.09.01:447][  0]LogAnalytics: SetUserId e5d5f96340dfecf0ad2a468a637cf62a|55b544c516224e719c43dcdbc0369524|c280a533-d1ed-424a-9933-bf831353bf5a
-[2015.03.10-17.09.01:447][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.03.10-17.09.01:477][  0]LogInit: Transaction tracking system initialized
-[2015.03.10-17.09.01:647][  0]BlueprintLog: New page: Editor Load
-[2015.03.10-17.09.01:679][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
-[2015.03.10-17.09.01:679][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.03.10-17.09.02:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.10-17.09.02:786][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.10-17.09.03:077][  0]LogInit:Warning: CVar named 'r.MobileHDR' marked up in URenderingSettings was not found or is set to read-only
-[2015.03.10-17.09.14:265][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2015.03.10-17.09.14:265][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2015.03.10-17.09.14:265][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
-[2015.03.10-17.09.14:291][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.03.10-17.09.14:291][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.03.10-17.09.14:303][  0]LogConsoleResponse:Display: 
-[2015.03.10-17.09.14:442][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.03.10-17.09.14:575][  0]SourceControl: Info Source control is disabled
-[2015.03.10-17.09.14:575][  0]Cmd: MAP LOAD FILE="../../../../../../workspace/Evolve/EvolveProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.10-17.09.14:575][  0]LightingResults: New page: Lighting Build
-[2015.03.10-17.09.14:586][  0]MapCheck: New page: Map Check
-[2015.03.10-17.09.14:586][  0]LightingResults: New page: Lighting Build
-[2015.03.10-17.09.14:592][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002804670680
-[2015.03.10-17.09.15:959][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.10-17.09.15:959][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.09.15:960][  0]Cmd: MAP CHECKDEP
-[2015.03.10-17.09.15:960][  0]MapCheck: New page: SideScrollerExampleMap - Mar 10, 2015, 7:09:15 PM
-[2015.03.10-17.09.16:034][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.303ms to complete.
-[2015.03.10-17.09.16:034][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 1.459
-[2015.03.10-17.09.16:355][  0]LogCollectionManager: Loaded 0 collections in 0.000985 seconds
-[2015.03.10-17.09.16:366][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 1696 classes and 261 folders.
-[2015.03.10-17.09.16:400][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2015.03.10-17.09.16:438][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.03.10-17.09.16:439][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.03.10-17.09.16:446][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.03.10-17.09.16:474][  0]LogLoad: Full Startup: 24.95 seconds (BP compile: 0.43 seconds)
-[2015.03.10-17.09.16:499][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP'
-[2015.03.10-17.09.16:845][  0]LogRenderer:Warning: Reallocating scene render targets to support 1056x560 (Frame:2).
-[2015.03.10-17.09.17:205][  5]LogAssetRegistry: Asset discovery search completed in 15.5365 seconds
-[2015.03.10-17.10.12:145][107]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
-[2015.03.10-17.10.21:138][547]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
-[2015.03.10-17.10.21:381][547]LogJson:Warning: Field AssetTypes was not found.
-[2015.03.10-17.10.21:381][547]LogJson:Error: Json Value of type 'Null' used as a 'Array'.
-[2015.03.10-17.10.21:381][547]LogJson:Warning: Field ClassTypes was not found.
-[2015.03.10-17.10.21:381][547]LogJson:Error: Json Value of type 'Null' used as a 'String'.
-[2015.03.10-17.10.21:381][547]LogJson:Warning: Field FocusAsset was not found.
-[2015.03.10-17.10.21:381][547]LogJson:Error: Json Value of type 'Null' used as a 'String'.
-[2015.03.10-17.10.21:434][547]LogJson:Warning: Field AssetTypes was not found.
-[2015.03.10-17.10.21:435][547]LogJson:Error: Json Value of type 'Null' used as a 'Array'.
-[2015.03.10-17.10.21:435][547]LogJson:Warning: Field ClassTypes was not found.
-[2015.03.10-17.10.21:435][547]LogJson:Error: Json Value of type 'Null' used as a 'String'.
-[2015.03.10-17.10.21:435][547]LogJson:Warning: Field FocusAsset was not found.
-[2015.03.10-17.10.21:435][547]LogJson:Error: Json Value of type 'Null' used as a 'String'.
-[2015.03.10-17.10.21:919][547]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/AddContentDialog/Fonts/Roboto-Regular.ttf'
-[2015.03.10-17.10.32:828][ 74]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Program Files/Epic Games/4.7/FeaturePacks/MobileStarterContent.upack)
-[2015.03.10-17.10.35:602][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Floor_400x400.uasset (62676) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Floor_400x400.uasset
-[2015.03.10-17.10.35:605][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Pillar_50x500.uasset (75014) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset
-[2015.03.10-17.10.35:608][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_400x200.uasset (59641) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_400x200.uasset
-[2015.03.10-17.10.35:611][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_400x300.uasset (61226) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_400x300.uasset
-[2015.03.10-17.10.35:614][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_400x400.uasset (62837) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_400x400.uasset
-[2015.03.10-17.10.35:616][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_500x500.uasset (78256) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_500x500.uasset
-[2015.03.10-17.10.35:619][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset (70090) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset
-[2015.03.10-17.10.35:621][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset (70860) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset
-[2015.03.10-17.10.35:624][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset (72543) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset
-[2015.03.10-17.10.35:629][ 74]LogPackFactory: Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset (73479) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset
-[2015.03.10-17.10.35:632][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Collapse01.uasset (348538) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Collapse01.uasset
-[2015.03.10-17.10.35:636][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Collapse02.uasset (346707) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Collapse02.uasset
-[2015.03.10-17.10.35:639][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Collapse_Cue.uasset (5862) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Collapse_Cue.uasset
-[2015.03.10-17.10.35:642][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Explosion01.uasset (282446) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Explosion01.uasset
-[2015.03.10-17.10.35:645][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Explosion02.uasset (289201) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Explosion02.uasset
-[2015.03.10-17.10.35:647][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Explosion_Cue.uasset (7331) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Explosion_Cue.uasset
-[2015.03.10-17.10.35:673][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Fire01.uasset (549702) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Fire01.uasset
-[2015.03.10-17.10.35:676][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Fire01_Cue.uasset (3785) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Fire01_Cue.uasset
-[2015.03.10-17.10.35:678][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Fire_Sparks01.uasset (796280) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset
-[2015.03.10-17.10.35:681][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset (3799) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset
-[2015.03.10-17.10.35:683][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Light01.uasset (364538) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Light01.uasset
-[2015.03.10-17.10.35:686][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Light01_Cue.uasset (3743) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Light01_Cue.uasset
-[2015.03.10-17.10.35:688][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Light02.uasset (308162) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Light02.uasset
-[2015.03.10-17.10.35:691][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Light02_Cue.uasset (3743) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Light02_Cue.uasset
-[2015.03.10-17.10.35:694][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Smoke01.uasset (476008) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Smoke01.uasset
-[2015.03.10-17.10.35:697][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Smoke01_Cue.uasset (3763) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset
-[2015.03.10-17.10.35:700][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset (9404) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset
-[2015.03.10-17.10.35:703][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Starter_Birds01.uasset (2689465) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Starter_Birds01.uasset
-[2015.03.10-17.10.35:707][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Starter_Music01.uasset (8445378) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Starter_Music01.uasset
-[2015.03.10-17.10.35:714][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset (3281) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset
-[2015.03.10-17.10.35:716][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Starter_Wind05.uasset (2312708) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Starter_Wind05.uasset
-[2015.03.10-17.10.35:720][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Starter_Wind06.uasset (2195545) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Starter_Wind06.uasset
-[2015.03.10-17.10.35:723][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Steam01.uasset (819034) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Steam01.uasset
-[2015.03.10-17.10.35:726][ 74]LogPackFactory: Content/MobileStarterContent/Audio/Steam01_Cue.uasset (3791) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Audio/Steam01_Cue.uasset
-[2015.03.10-17.10.35:728][ 74]LogPackFactory: Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset (127277) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset
-[2015.03.10-17.10.35:732][ 74]LogPackFactory: Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (15786) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
-[2015.03.10-17.10.35:736][ 74]LogPackFactory: Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset (15843) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset
-[2015.03.10-17.10.35:739][ 74]LogPackFactory: Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (15788) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
-[2015.03.10-17.10.35:741][ 74]LogPackFactory: Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (15806) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
-[2015.03.10-17.10.35:744][ 74]LogPackFactory: Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset (137467) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset
-[2015.03.10-17.10.35:747][ 74]LogPackFactory: Content/MobileStarterContent/Maps/Minimal_Default.umap (1801166) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Maps/Minimal_Default.umap
-[2015.03.10-17.10.35:750][ 74]LogPackFactory: Content/MobileStarterContent/Maps/StarterMap.umap (13835731) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Maps/StarterMap.umap
-[2015.03.10-17.10.35:759][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Basic_Floor.uasset (68707) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset
-[2015.03.10-17.10.35:763][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Basic_Wall.uasset (61989) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset
-[2015.03.10-17.10.35:766][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset (84951) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset
-[2015.03.10-17.10.35:770][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset (127544) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset
-[2015.03.10-17.10.35:773][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset (97540) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset
-[2015.03.10-17.10.35:776][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset (95824) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset
-[2015.03.10-17.10.35:778][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset (90707) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset
-[2015.03.10-17.10.35:781][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset (88130) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset
-[2015.03.10-17.10.35:783][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset (104034) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset
-[2015.03.10-17.10.35:785][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset (101365) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset
-[2015.03.10-17.10.35:788][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset (92968) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset
-[2015.03.10-17.10.35:790][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset (90402) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset
-[2015.03.10-17.10.35:792][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset (74391) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset
-[2015.03.10-17.10.35:797][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset (72734) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset
-[2015.03.10-17.10.35:800][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset (77798) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset
-[2015.03.10-17.10.35:803][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Glass.uasset (60074) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Glass.uasset
-[2015.03.10-17.10.35:806][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Ground_Grass.uasset (88876) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset
-[2015.03.10-17.10.35:808][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset (81727) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset
-[2015.03.10-17.10.35:811][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Ground_Moss.uasset (95832) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset
-[2015.03.10-17.10.35:813][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset (78271) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset
-[2015.03.10-17.10.35:816][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset (84287) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset
-[2015.03.10-17.10.35:818][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset (80785) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset
-[2015.03.10-17.10.35:819][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Metal_Copper.uasset (82291) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset
-[2015.03.10-17.10.35:821][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Metal_Gold.uasset (90982) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset
-[2015.03.10-17.10.35:823][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Metal_Rust.uasset (91587) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset
-[2015.03.10-17.10.35:826][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Metal_Steel.uasset (90616) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset
-[2015.03.10-17.10.35:829][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset (96458) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset
-[2015.03.10-17.10.35:831][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset (74066) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset
-[2015.03.10-17.10.35:834][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset (83616) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset
-[2015.03.10-17.10.35:838][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Rock_Slate.uasset (83191) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset
-[2015.03.10-17.10.35:840][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset (101020) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset
-[2015.03.10-17.10.35:843][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset (141744) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset
-[2015.03.10-17.10.35:845][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (110373) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
-[2015.03.10-17.10.35:847][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Tech_Panel.uasset (79936) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset
-[2015.03.10-17.10.35:849][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Water_Lake.uasset (107584) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Water_Lake.uasset
-[2015.03.10-17.10.35:851][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Water_Ocean.uasset (107328) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset
-[2015.03.10-17.10.35:853][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (94677) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
-[2015.03.10-17.10.35:855][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (88910) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
-[2015.03.10-17.10.35:857][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Wood_Oak.uasset (99897) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset
-[2015.03.10-17.10.35:860][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Wood_Pine.uasset (81453) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset
-[2015.03.10-17.10.35:863][ 74]LogPackFactory: Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset (92372) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset
-[2015.03.10-17.10.35:865][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_Burst.uasset (62246) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset
-[2015.03.10-17.10.35:869][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset (58015) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset
-[2015.03.10-17.10.35:871][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset (71128) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset
-[2015.03.10-17.10.35:873][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset (74295) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset
-[2015.03.10-17.10.35:876][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset (61818) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset
-[2015.03.10-17.10.35:878][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset (58624) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset
-[2015.03.10-17.10.35:880][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset (58824) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset
-[2015.03.10-17.10.35:882][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset (79963) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset
-[2015.03.10-17.10.35:885][ 74]LogPackFactory: Content/MobileStarterContent/Particles/Materials/M_Spark.uasset (60695) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset
-[2015.03.10-17.10.35:887][ 74]LogPackFactory: Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset (38880) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset
-[2015.03.10-17.10.35:889][ 74]LogPackFactory: Content/MobileStarterContent/Particles/P_Explosion.uasset (277416) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/P_Explosion.uasset
-[2015.03.10-17.10.35:891][ 74]LogPackFactory: Content/MobileStarterContent/Particles/P_Fire.uasset (238519) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/P_Fire.uasset
-[2015.03.10-17.10.35:893][ 74]LogPackFactory: Content/MobileStarterContent/Particles/P_Smoke.uasset (65116) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/P_Smoke.uasset
-[2015.03.10-17.10.35:897][ 74]LogPackFactory: Content/MobileStarterContent/Particles/P_Sparks.uasset (168630) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Particles/P_Sparks.uasset
-[2015.03.10-17.10.35:900][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Bush.uasset (120947) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Bush.uasset
-[2015.03.10-17.10.35:904][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Chair.uasset (94409) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Chair.uasset
-[2015.03.10-17.10.35:906][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Door.uasset (94099) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Door.uasset
-[2015.03.10-17.10.35:908][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Frame.uasset (82036) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Frame.uasset
-[2015.03.10-17.10.35:910][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Lamp.uasset (93505) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset
-[2015.03.10-17.10.35:913][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset (75685) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset
-[2015.03.10-17.10.35:915][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (65561) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
-[2015.03.10-17.10.35:917][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Rock.uasset (96676) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Rock.uasset
-[2015.03.10-17.10.35:919][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Shelf.uasset (87346) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset
-[2015.03.10-17.10.35:921][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_Statue.uasset (76771) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_Statue.uasset
-[2015.03.10-17.10.35:923][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset (63560) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset
-[2015.03.10-17.10.35:926][ 74]LogPackFactory: Content/MobileStarterContent/Props/Materials/M_TableRound.uasset (97672) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset
-[2015.03.10-17.10.35:929][ 74]LogPackFactory: Content/MobileStarterContent/Props/MaterialSphere.uasset (185932) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/MaterialSphere.uasset
-[2015.03.10-17.10.35:932][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Bush.uasset (191455) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Bush.uasset
-[2015.03.10-17.10.35:935][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Chair.uasset (228921) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Chair.uasset
-[2015.03.10-17.10.35:938][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_CornerFrame.uasset (105881) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_CornerFrame.uasset
-[2015.03.10-17.10.35:940][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Couch.uasset (268421) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Couch.uasset
-[2015.03.10-17.10.35:943][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Door.uasset (228029) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Door.uasset
-[2015.03.10-17.10.35:945][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_DoorFrame.uasset (77659) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_DoorFrame.uasset
-[2015.03.10-17.10.35:948][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_GlassWindow.uasset (110490) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_GlassWindow.uasset
-[2015.03.10-17.10.35:950][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset (333391) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset
-[2015.03.10-17.10.35:952][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset (162454) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset
-[2015.03.10-17.10.35:954][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset (2401169) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset
-[2015.03.10-17.10.35:957][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_PillarFrame.uasset (136757) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_PillarFrame.uasset
-[2015.03.10-17.10.35:960][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_PillarFrame300.uasset (134774) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset
-[2015.03.10-17.10.35:963][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Rock.uasset (186976) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Rock.uasset
-[2015.03.10-17.10.35:966][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Shelf.uasset (129175) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Shelf.uasset
-[2015.03.10-17.10.35:969][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Stairs.uasset (86353) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Stairs.uasset
-[2015.03.10-17.10.35:972][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_Statue.uasset (551703) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_Statue.uasset
-[2015.03.10-17.10.35:974][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_TableRound.uasset (542067) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_TableRound.uasset
-[2015.03.10-17.10.35:977][ 74]LogPackFactory: Content/MobileStarterContent/Props/SM_WindowFrame.uasset (80607) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Props/SM_WindowFrame.uasset
-[2015.03.10-17.10.35:979][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Cone.uasset (104471) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Cone.uasset
-[2015.03.10-17.10.35:981][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Cube.uasset (63431) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Cube.uasset
-[2015.03.10-17.10.35:983][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset (119855) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset
-[2015.03.10-17.10.35:985][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset (224929) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset
-[2015.03.10-17.10.35:987][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Pipe.uasset (94151) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset
-[2015.03.10-17.10.35:989][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset (202773) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset
-[2015.03.10-17.10.35:992][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset (133558) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset
-[2015.03.10-17.10.35:996][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Plane.uasset (56047) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Plane.uasset
-[2015.03.10-17.10.35:998][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset (55241) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset
-[2015.03.10-17.10.36:002][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Sphere.uasset (274206) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset
-[2015.03.10-17.10.36:005][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Torus.uasset (570809) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Torus.uasset
-[2015.03.10-17.10.36:007][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Trim.uasset (67314) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Trim.uasset
-[2015.03.10-17.10.36:010][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset (94187) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset
-[2015.03.10-17.10.36:012][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset (95829) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset
-[2015.03.10-17.10.36:014][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset (56742) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset
-[2015.03.10-17.10.36:017][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Tube.uasset (203842) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Tube.uasset
-[2015.03.10-17.10.36:019][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset (58383) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset
-[2015.03.10-17.10.36:021][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset (54046) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset
-[2015.03.10-17.10.36:023][ 74]LogPackFactory: Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset (159733) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset
-[2015.03.10-17.10.36:026][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (2014733) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
-[2015.03.10-17.10.36:030][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (2106171) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
-[2015.03.10-17.10.36:034][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (1822388) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
-[2015.03.10-17.10.36:039][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset (1595506) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset
-[2015.03.10-17.10.36:041][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset (2327522) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset
-[2015.03.10-17.10.36:045][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset (1933637) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset
-[2015.03.10-17.10.36:048][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset (3054952) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset
-[2015.03.10-17.10.36:052][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset (2187230) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset
-[2015.03.10-17.10.36:055][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset (3388564) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset
-[2015.03.10-17.10.36:059][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset (1859435) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset
-[2015.03.10-17.10.36:064][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (1981342) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
-[2015.03.10-17.10.36:067][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (1767525) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
-[2015.03.10-17.10.36:071][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (2261620) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
-[2015.03.10-17.10.36:074][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Burst_M.uasset (79632) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Burst_M.uasset
-[2015.03.10-17.10.36:077][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Bush_D.uasset (214500) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Bush_D.uasset
-[2015.03.10-17.10.36:080][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Bush_N.uasset (164145) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Bush_N.uasset
-[2015.03.10-17.10.36:082][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset (98811) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset
-[2015.03.10-17.10.36:085][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset (82800) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset
-[2015.03.10-17.10.36:087][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Chair_M.uasset (264176) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Chair_M.uasset
-[2015.03.10-17.10.36:089][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Chair_N.uasset (609624) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Chair_N.uasset
-[2015.03.10-17.10.36:091][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset (130126) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset
-[2015.03.10-17.10.36:095][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset (3003097) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset
-[2015.03.10-17.10.36:099][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset (400060) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset
-[2015.03.10-17.10.36:102][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset (2808663) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset
-[2015.03.10-17.10.36:106][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset (788355) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset
-[2015.03.10-17.10.36:109][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset (751864) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset
-[2015.03.10-17.10.36:112][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset (2060189) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset
-[2015.03.10-17.10.36:115][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset (1797918) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset
-[2015.03.10-17.10.36:118][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset (2288615) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset
-[2015.03.10-17.10.36:121][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset (2959070) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset
-[2015.03.10-17.10.36:125][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset (2504766) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset
-[2015.03.10-17.10.36:130][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset (1617575) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset
-[2015.03.10-17.10.36:133][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset (2982686) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset
-[2015.03.10-17.10.36:138][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset (2065014) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset
-[2015.03.10-17.10.36:141][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset (1378644) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset
-[2015.03.10-17.10.36:145][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset (1533975) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset
-[2015.03.10-17.10.36:147][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset (1459791) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset
-[2015.03.10-17.10.36:151][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (5566) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
-[2015.03.10-17.10.36:152][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset (793381) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset
-[2015.03.10-17.10.36:155][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Door_M.uasset (150500) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Door_M.uasset
-[2015.03.10-17.10.36:157][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Door_N.uasset (263889) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Door_N.uasset
-[2015.03.10-17.10.36:159][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset (12216) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset
-[2015.03.10-17.10.36:163][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset (926491) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset
-[2015.03.10-17.10.36:166][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset (219210) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset
-[2015.03.10-17.10.36:169][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset (200522) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset
-[2015.03.10-17.10.36:172][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Frame_M.uasset (155978) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Frame_M.uasset
-[2015.03.10-17.10.36:174][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Frame_N.uasset (297141) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Frame_N.uasset
-[2015.03.10-17.10.36:178][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Gradinet_01.uasset (3247) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset
-[2015.03.10-17.10.36:180][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset (3079798) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset
-[2015.03.10-17.10.36:183][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset (3029389) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset
-[2015.03.10-17.10.36:187][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset (2868202) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset
-[2015.03.10-17.10.36:190][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset (2172713) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset
-[2015.03.10-17.10.36:195][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset (3420289) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset
-[2015.03.10-17.10.36:199][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset (2510006) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset
-[2015.03.10-17.10.36:204][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Lamp_M.uasset (263319) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Lamp_M.uasset
-[2015.03.10-17.10.36:206][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Lamp_N.uasset (592145) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Lamp_N.uasset
-[2015.03.10-17.10.36:209][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_MacroVariation.uasset (3026619) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_MacroVariation.uasset
-[2015.03.10-17.10.36:213][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset (2348162) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset
-[2015.03.10-17.10.36:216][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset (2174415) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset
-[2015.03.10-17.10.36:219][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset (2203298) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset
-[2015.03.10-17.10.36:223][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset (801595) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset
-[2015.03.10-17.10.36:225][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset (2474651) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset
-[2015.03.10-17.10.36:231][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset (2304463) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset
-[2015.03.10-17.10.36:235][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset (1015961) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset
-[2015.03.10-17.10.36:238][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset (1596120) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset
-[2015.03.10-17.10.36:241][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset (1845155) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset
-[2015.03.10-17.10.36:245][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset (2685465) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset
-[2015.03.10-17.10.36:248][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset (2238956) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset
-[2015.03.10-17.10.36:251][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset (1475947) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset
-[2015.03.10-17.10.36:254][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset (2391050) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset
-[2015.03.10-17.10.36:258][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset (2312643) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset
-[2015.03.10-17.10.36:262][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset (3110209) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset
-[2015.03.10-17.10.36:267][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset (2499664) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset
-[2015.03.10-17.10.36:272][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (2531015) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
-[2015.03.10-17.10.36:276][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_RockMesh_M.uasset (934103) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset
-[2015.03.10-17.10.36:278][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_RockMesh_N.uasset (1567435) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset
-[2015.03.10-17.10.36:281][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Shelf_M.uasset (208593) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Shelf_M.uasset
-[2015.03.10-17.10.36:284][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Shelf_N.uasset (417283) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Shelf_N.uasset
-[2015.03.10-17.10.36:287][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset (3713) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset
-[2015.03.10-17.10.36:289][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset (879845) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset
-[2015.03.10-17.10.36:292][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset (33718) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset
-[2015.03.10-17.10.36:295][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Spark_Core.uasset (73817) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Spark_Core.uasset
-[2015.03.10-17.10.36:298][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Statue_M.uasset (165013) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Statue_M.uasset
-[2015.03.10-17.10.36:302][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Statue_N.uasset (151922) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Statue_N.uasset
-[2015.03.10-17.10.36:305][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_TableRound_M.uasset (290640) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_TableRound_M.uasset
-[2015.03.10-17.10.36:307][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_TableRound_N.uasset (459647) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_TableRound_N.uasset
-[2015.03.10-17.10.36:310][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset (57852) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset
-[2015.03.10-17.10.36:312][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset (84175) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset
-[2015.03.10-17.10.36:315][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset (262471) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset
-[2015.03.10-17.10.36:317][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset (207879) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset
-[2015.03.10-17.10.36:320][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset (422526) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset
-[2015.03.10-17.10.36:322][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset (316978) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset
-[2015.03.10-17.10.36:325][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Water_M.uasset (503483) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Water_M.uasset
-[2015.03.10-17.10.36:327][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Water_N.uasset (486098) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Water_N.uasset
-[2015.03.10-17.10.36:332][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (1430516) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
-[2015.03.10-17.10.36:335][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (1113704) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
-[2015.03.10-17.10.36:340][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (701605) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
-[2015.03.10-17.10.36:343][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset (1669886) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset
-[2015.03.10-17.10.36:346][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset (1335945) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset
-[2015.03.10-17.10.36:349][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset (2296892) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset
-[2015.03.10-17.10.36:352][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset (1054381) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset
-[2015.03.10-17.10.36:354][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset (1570749) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset
-[2015.03.10-17.10.36:357][ 74]LogPackFactory: Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset (1066061) -> ../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset
-[2015.03.10-17.10.36:360][ 74]LogPackFactory: Finished extracting 506 files (including 0 errors).
-[2015.03.10-17.10.36:437][ 74]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.03.10-17.10.36:437][ 74]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent/Architecture'
-[2015.03.10-17.10.36:925][ 74]LogSavePackage: Save=365.933289ms
-[2015.03.10-17.10.36:926][ 74]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/Floor_400x4001124E16947D6454BA002B4822A57881B.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
-[2015.03.10-17.10.50:122][708]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.03.10-17.39.23:452][180]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent'
-[2015.03.10-17.39.33:899][595]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent/Particles'
-[2015.03.10-17.39.36:862][744]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
-[2015.03.10-17.39.36:878][744]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
-[2015.03.10-17.39.36:887][744]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
-[2015.03.10-17.39.36:896][744]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
-[2015.03.10-17.39.36:907][744]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
-[2015.03.10-17.39.45:856][ 53]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.39.45:856][ 53]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:39:45 PM)
-[2015.03.10-17.39.45:881][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023576s)
-[2015.03.10-17.39.45:882][ 53]LogPlayLevel: PIE: World Init took: (0.000948s)
-[2015.03.10-17.39.45:882][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024857s)
-[2015.03.10-17.39.45:954][ 53]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.39.45:957][ 53]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.39.45:966][ 53]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.39.45
-[2015.03.10-17.39.45:968][ 53]LogWorld: Bringing up level for play took: 0.010321
-[2015.03.10-17.39.46:008][ 53]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.835
-[2015.03.10-17.39.51:686][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000280F274860
-[2015.03.10-17.39.58:383][655]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.39.58:383][655]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:39:58 PM)
-[2015.03.10-17.39.58:404][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020575s)
-[2015.03.10-17.39.58:405][655]LogPlayLevel: PIE: World Init took: (0.001316s)
-[2015.03.10-17.39.58:405][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.022123s)
-[2015.03.10-17.39.58:454][655]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.39.58:456][655]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.39.58:461][655]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.39.58
-[2015.03.10-17.39.58:462][655]LogWorld: Bringing up level for play took: 0.005675
-[2015.03.10-17.39.58:464][655]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.709
-[2015.03.10-17.40.01:029][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002802C44FE0
-[2015.03.10-17.40.01:741][836]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.40.01:741][836]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:40:01 PM)
-[2015.03.10-17.40.01:773][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022743s)
-[2015.03.10-17.40.01:774][836]LogPlayLevel: PIE: World Init took: (0.000896s)
-[2015.03.10-17.40.01:774][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.023872s)
-[2015.03.10-17.40.01:826][836]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.40.01:827][836]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.40.01:834][836]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.40.01
-[2015.03.10-17.40.01:836][836]LogWorld: Bringing up level for play took: 0.008129
-[2015.03.10-17.40.01:838][836]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.665
-[2015.03.10-17.40.03:326][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002802C47A60
-[2015.03.10-17.40.05:935][ 50]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Explosion)
-[2015.03.10-17.40.06:114][ 59]Cmd: DELETE
-[2015.03.10-17.40.06:114][ 59]Cmd: ACTOR DELETE
-[2015.03.10-17.40.06:115][ 59]LogEditorActor: Deleted Actor: Emitter
-[2015.03.10-17.40.06:136][ 59]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2015.03.10-17.40.08:004][160]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
-[2015.03.10-17.40.08:011][160]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
-[2015.03.10-17.40.11:602][323]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.40.11:602][323]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:40:11 PM)
-[2015.03.10-17.40.11:629][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026829s)
-[2015.03.10-17.40.11:630][323]LogPlayLevel: PIE: World Init took: (0.001486s)
-[2015.03.10-17.40.11:631][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.028636s)
-[2015.03.10-17.40.11:681][323]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.40.11:684][323]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.40.11:692][323]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.40.11
-[2015.03.10-17.40.11:693][323]LogWorld: Bringing up level for play took: 0.007458
-[2015.03.10-17.40.11:695][323]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.523
-[2015.03.10-17.40.25:714][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002802C458A0
-[2015.03.10-17.40.38:116][223]LogSavePackage: Save=1874.804077ms
-[2015.03.10-17.40.38:116][223]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/SideScrollerExampleMap_Auto1E81C8BF248B705CBB912FD8629458272.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
-[2015.03.10-17.40.38:276][223]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 2.332
-[2015.03.10-17.40.38:276][223]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.332
-[2015.03.10-17.40.40:013][320]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent/Blueprints'
-[2015.03.10-17.40.49:460][868]LogTexture:Display: Building textures: T_Lamp_N (BC5)
-[2015.03.10-17.40.49:575][868]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
-[2015.03.10-17.41.15:265][326]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire)
-[2015.03.10-17.41.39:669][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.03.10-17.41.41:714][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2015.03.10-17.41.45:174][ 46]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.41.45:174][ 46]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:41:45 PM)
-[2015.03.10-17.41.45:202][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020098s)
-[2015.03.10-17.41.45:203][ 46]LogPlayLevel: PIE: World Init took: (0.001008s)
-[2015.03.10-17.41.45:203][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021309s)
-[2015.03.10-17.41.45:265][ 46]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.41.45:268][ 46]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.41.45:273][ 46]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.41.45
-[2015.03.10-17.41.45:274][ 46]LogWorld: Bringing up level for play took: 0.005337
-[2015.03.10-17.41.45:276][ 46]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.103
-[2015.03.10-17.41.56:007][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002874EED260
-[2015.03.10-17.41.58:441][819]Cmd: TRANSACTION UNDO
-[2015.03.10-17.41.58:441][819]LogEditorTransaction: Undo Clicking on Actors
-[2015.03.10-17.41.58:839][830]Cmd: TRANSACTION UNDO
-[2015.03.10-17.41.58:839][830]LogEditorTransaction: Undo Clicking on Actors
-[2015.03.10-17.41.59:172][840]Cmd: TRANSACTION UNDO
-[2015.03.10-17.41.59:172][840]LogEditorTransaction: Undo Move Actors
-[2015.03.10-17.41.59:562][856]Cmd: TRANSACTION UNDO
-[2015.03.10-17.41.59:562][856]LogEditorTransaction: Undo Move Actors
-[2015.03.10-17.41.59:939][872]Cmd: TRANSACTION UNDO
-[2015.03.10-17.41.59:939][872]LogEditorTransaction: Undo Move Actors
-[2015.03.10-17.42.00:268][886]Cmd: TRANSACTION UNDO
-[2015.03.10-17.42.00:268][886]LogEditorTransaction: Undo Move Actors
-[2015.03.10-17.42.00:606][900]Cmd: TRANSACTION UNDO
-[2015.03.10-17.42.00:606][900]LogEditorTransaction: Undo Move Actors
-[2015.03.10-17.42.00:972][917]Cmd: TRANSACTION UNDO
-[2015.03.10-17.42.00:972][917]LogEditorTransaction: Undo Clicking on Actors
-[2015.03.10-17.42.01:384][937]Cmd: TRANSACTION UNDO
-[2015.03.10-17.42.01:384][937]LogEditorTransaction: Undo Rotate Actors
-[2015.03.10-17.42.01:789][955]Cmd: TRANSACTION UNDO
-[2015.03.10-17.42.01:789][955]LogEditorTransaction: Undo Create Actors
-[2015.03.10-17.42.02:114][970]Cmd: TRANSACTION UNDO
-[2015.03.10-17.42.02:114][970]LogEditorTransaction: Undo Move Actors
-[2015.03.10-17.42.02:839][  8]Cmd: TRANSACTION UNDO
-[2015.03.10-17.42.02:839][  8]LogEditorTransaction: Undo Create Actors
-[2015.03.10-17.42.06:642][ 99]LogSavePackage: Save=1835.004028ms
-[2015.03.10-17.42.06:642][ 99]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/SideScrollerExampleMap130C8D454CE6A9C8F0B6FEA817FF59B9.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.03.10-17.42.06:663][ 99]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.958
-[2015.03.10-17.42.22:664][998]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.42.22:664][998]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:42:22 PM)
-[2015.03.10-17.42.22:691][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020059s)
-[2015.03.10-17.42.22:692][998]LogPlayLevel: PIE: World Init took: (0.000680s)
-[2015.03.10-17.42.22:692][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020985s)
-[2015.03.10-17.42.22:736][998]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.42.22:738][998]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.42.22:742][998]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.42.22
-[2015.03.10-17.42.22:743][998]LogWorld: Bringing up level for play took: 0.004740
-[2015.03.10-17.42.22:745][998]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.428
-[2015.03.10-17.43.13:849][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000280F8453A0
-[2015.03.10-17.43.16:490][204]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MobileStarterContent/Materials'
-[2015.03.10-17.43.28:120][862]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.03.10-17.43.28:788][895]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.03.10-17.45.28:736][943]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
-[2015.03.10-17.45.31:719][105]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.03.10-17.45.35:472][275]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.03.10-17.45.43:225][698]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.45.43:262][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.03.10-17.45.43:298][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.03.10-17.45.43:298][698]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.03.10-17.45.43:302][698]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.45.43:306][698]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.45.44:416][749]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.45.44:416][749]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.45.44:416][749]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.45.47:542][931]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.45.47:547][931]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.45.47:548][931]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2015.03.10-17.45.48:252][972]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.45.48:252][972]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.45.48:252][972]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.00:768][712]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.00:772][712]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.00:798][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2015.03.10-17.46.01:389][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.01:389][747]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.01:389][747]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.09:966][254]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.09:970][254]LogMaterial: 0.000185 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.09:993][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2015.03.10-17.46.10:590][289]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.10:590][289]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.10:590][289]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.12:858][420]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.12:863][420]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.12:889][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2015.03.10-17.46.13:516][457]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.13:516][457]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.13:516][457]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.22:891][ 19]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.22:898][ 19]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.23:549][ 56]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.23:549][ 56]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.23:549][ 56]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.26:460][226]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.26:464][226]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.27:106][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.27:106][264]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.27:106][264]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.32:670][596]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.32:673][596]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.33:312][632]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.33:312][632]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.33:312][632]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.36:857][840]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.36:863][840]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.37:499][878]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.37:499][878]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.37:499][878]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.46.46:440][413]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.46.46:445][413]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.46.47:055][450]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.46.47:055][450]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.46.47:055][450]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.04:865][ 26]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.04:871][ 26]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.05:883][ 84]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.05:883][ 84]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.05:883][ 84]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.10:279][346]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.10:283][346]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.10:872][380]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.10:872][380]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.10:872][380]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.11:751][432]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.11:755][432]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.12:420][469]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.12:420][469]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.12:420][469]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.13:572][534]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.10-17.48.13:577][534]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.13:581][534]LogMaterial: 0.000307 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.14:270][573]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.14:270][573]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.14:270][573]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.21:215][988]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.21:221][988]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.21:798][ 23]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.21:798][ 23]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.21:798][ 23]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.32:201][640]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.32:205][640]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.32:206][640]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2015.03.10-17.48.32:827][676]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.32:827][676]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.32:828][676]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.35:126][812]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.35:130][812]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.35:776][849]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.35:776][849]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.35:776][849]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.36:459][890]LogEditorTransaction: Undo Material Editor: Delete
-[2015.03.10-17.48.36:461][890]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.36:468][890]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.36:472][890]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.36:499][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2015.03.10-17.48.37:089][904]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.37:089][904]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.37:089][904]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.37:441][923]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.37:445][923]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.38:144][960]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.38:144][960]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.38:144][960]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.43:720][272]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.43:727][272]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.43:752][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2015.03.10-17.48.44:453][313]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.44:453][313]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.44:453][313]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.50:821][694]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.50:825][694]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.50:853][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2015.03.10-17.48.51:432][729]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.51:432][729]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.51:432][729]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.53:347][831]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.53:351][831]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.53:376][831]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2015.03.10-17.48.54:006][868]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.03.10-17.48.54:006][868]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.54:006][868]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.55:583][950]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.55:587][950]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.56:273][991]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
-[2015.03.10-17.48.56:273][991]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.56:273][991]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.48.57:627][ 63]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.48.57:632][ 63]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.48.58:285][102]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
-[2015.03.10-17.48.58:285][102]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.48.58:285][102]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.49.02:645][363]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.02:650][363]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.03:292][402]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
-[2015.03.10-17.49.03:292][402]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.49.03:292][402]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.49.07:902][678]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.07:908][678]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.08:550][717]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
-[2015.03.10-17.49.08:550][717]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.49.08:550][717]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.49.13:716][ 27]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.03.10-17.49.13:716][ 27]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.03.10-17.49.15:866][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.03.10-17.49.15:866][156]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.03.10-17.49.22:237][538]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.22:242][538]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.22:869][576]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
-[2015.03.10-17.49.22:869][576]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.49.22:869][576]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.49.25:951][761]LogMaterialEditor: Applying material CharacterMat
-[2015.03.10-17.49.27:320][761]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.27:338][761]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.27:428][761]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.27:448][761]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.27:459][761]LogMaterial: 0.001990 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.27:884][787]LogMaterialEditor: Saving and Compiling material CharacterMat
-[2015.03.10-17.49.29:430][787]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.29:448][787]LogMaterial: 0.000021 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.29:530][787]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.29:550][787]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.29:559][787]LogMaterial: 0.001578 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.31:250][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat.uasset" SILENT=true
-[2015.03.10-17.49.31:713][787]LogSavePackage: Save=461.301544ms
-[2015.03.10-17.49.31:713][787]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMatE4FF0D9B4EE7B401BD6C26884BE6003B.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat.uasset'
-[2015.03.10-17.49.31:727][787]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
-[2015.03.10-17.49.31:727][787]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.49.31:727][787]MaterialEditorStats: Info Texture samplers: 3/16
-[2015.03.10-17.49.36:633][ 47]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
-[2015.03.10-17.49.44:674][473]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.03.10-17.49.44:694][473]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.03.10-17.49.44:694][473]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.03.10-17.49.44:729][473]LogRenderer:Warning: Reallocating scene render targets to support 1224x896 (Frame:31567).
-[2015.03.10-17.49.54:249][979]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
-[2015.03.10-17.49.56:775][ 80]LogMaterial:Warning: Material /Game/Materials/CharacterMat.CharacterMat needed to have new flag set bUsedWithSkeletalMesh !
-[2015.03.10-17.49.56:775][ 80]LogMaterial:Warning: Material /Engine/Transient.CharacterMat needed to have new flag set bUsedWithSkeletalMesh !
-[2015.03.10-17.49.56:779][ 80]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.56:792][ 80]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.49.56:793][ 80]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.49.56:811][ 80]LogMaterial: 0.000319 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2015.03.10-17.50.05:218][369]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
-[2015.03.10-17.50.05:218][369]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.50.05:218][369]MaterialEditorStats: Info Texture samplers: 3/16
-[2015.03.10-17.51.59:053][703]LogSavePackage: Save=1765.227539ms
-[2015.03.10-17.51.59:053][703]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/SideScrollerExampleMap42C10CC444B89B27FBDB8C8FA5B3B244.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.03.10-17.51.59:074][703]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.905
-[2015.03.10-17.51.59:081][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat.uasset" SILENT=true
-[2015.03.10-17.51.59:091][703]LogSavePackage: Save=5.803272ms
-[2015.03.10-17.51.59:091][703]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat228B9865495B34243AE9A2A9032CC00C.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat.uasset'
-[2015.03.10-17.51.59:113][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat_Inst" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset" SILENT=true
-[2015.03.10-17.51.59:486][703]LogSavePackage: Save=372.240784ms
-[2015.03.10-17.51.59:486][703]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat_Inst73A9B4B843D1E9BA3F871BBACE11D16E.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset'
-[2015.03.10-17.52.07:401][100]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.07:415][100]LogMaterial: 0.000183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.10:736][247]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
-[2015.03.10-17.52.10:736][247]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.52.10:736][247]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.52.14:338][439]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.03.10-17.52.14:347][439]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.14:358][439]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.17:364][582]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
-[2015.03.10-17.52.17:364][582]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.52.17:364][582]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.52.21:232][790]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.21:243][790]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.24:141][917]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
-[2015.03.10-17.52.24:141][917]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.52.24:141][917]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.52.25:241][979]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.25:253][979]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.28:172][112]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
-[2015.03.10-17.52.28:172][112]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.52.28:172][112]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.52.31:824][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.03.10-17.52.31:824][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.03.10-17.52.35:556][507]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.35:569][507]LogMaterial: 0.000191 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.38:327][633]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
-[2015.03.10-17.52.38:327][633]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.52.38:327][633]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.52.39:216][683]LogEditorTransaction: Undo Break Pin Links
-[2015.03.10-17.52.39:240][683]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.39:306][683]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.39:319][683]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.42:112][790]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
-[2015.03.10-17.52.42:112][790]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.52.42:112][790]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.03.10-17.52.45:960][994]LogMaterialEditor: Applying material CharacterMat
-[2015.03.10-17.52.47:359][994]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.47:384][994]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.47:468][994]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.47:498][994]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.47:519][994]LogMaterial: 0.001965 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2015.03.10-17.52.48:423][ 38]LogMaterialEditor: Saving and Compiling material CharacterMat
-[2015.03.10-17.52.50:190][ 38]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.50:233][ 38]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.03.10-17.52.50:321][ 38]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.50:358][ 38]LogMaterial: Missing cached shader map for material CharacterMat, compiling. 
-[2015.03.10-17.52.50:389][ 38]LogMaterial: 0.001841 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2015.03.10-17.52.58:433][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat.uasset" SILENT=true
-[2015.03.10-17.52.58:913][ 38]LogSavePackage: Save=462.002899ms
-[2015.03.10-17.52.58:913][ 38]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat4F4072A641A19286046EB7B019720B2C.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat.uasset'
-[2015.03.10-17.52.59:055][ 38]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
-[2015.03.10-17.52.59:055][ 38]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.03.10-17.52.59:055][ 38]MaterialEditorStats: Info Texture samplers: 3/16
-[2015.03.10-17.53.05:841][206]LogSavePackage: Save=1661.597412ms
-[2015.03.10-17.53.05:841][206]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/SideScrollerExampleMapDEA23D234868FA1FACCC9AADC780B034.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2015.03.10-17.53.05:861][206]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.775
-[2015.03.10-17.53.05:864][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat_Inst" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset" SILENT=true
-[2015.03.10-17.53.05:873][206]LogSavePackage: Save=4.084956ms
-[2015.03.10-17.53.05:873][206]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat_Inst1F99AE6C4507DCCDA6E6BA83571A7186.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset'
-[2015.03.10-17.53.47:791][873]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.53.47:791][873]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:53:47 PM)
-[2015.03.10-17.53.47:812][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020521s)
-[2015.03.10-17.53.47:813][873]LogPlayLevel: PIE: World Init took: (0.000771s)
-[2015.03.10-17.53.47:813][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021495s)
-[2015.03.10-17.53.47:891][873]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.53.47:893][873]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.53.47:897][873]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.53.47
-[2015.03.10-17.53.47:898][873]LogWorld: Bringing up level for play took: 0.004914
-[2015.03.10-17.53.47:900][873]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.727
-[2015.03.10-17.55.11:342][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000283D247B00
-[2015.03.10-17.55.42:220][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2015.03.10-17.55.43:197][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.03.10-17.55.44:570][689]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2015.03.10-17.55.46:634][768]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.55.46:634][768]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:55:46 PM)
-[2015.03.10-17.55.46:656][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021783s)
-[2015.03.10-17.55.46:657][768]LogPlayLevel: PIE: World Init took: (0.000789s)
-[2015.03.10-17.55.46:657][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.022761s)
-[2015.03.10-17.55.46:706][768]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.55.46:708][768]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.55.46:713][768]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.55.46
-[2015.03.10-17.55.46:714][768]LogWorld: Bringing up level for play took: 0.004972
-[2015.03.10-17.55.46:715][768]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.457
-[2015.03.10-17.55.51:202][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000280FA709A0
-[2015.03.10-17.55.54:105][138]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.03.10-17.55.58:041][312]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.03.10-17.56.23:263][319]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-17.56.23:263][319]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 7:56:23 PM)
-[2015.03.10-17.56.23:307][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020036s)
-[2015.03.10-17.56.23:308][319]LogPlayLevel: PIE: World Init took: (0.000899s)
-[2015.03.10-17.56.23:308][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021132s)
-[2015.03.10-17.56.23:358][319]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-17.56.23:360][319]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-17.56.23:365][319]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-18.56.23
-[2015.03.10-17.56.23:365][319]LogWorld: Bringing up level for play took: 0.004809
-[2015.03.10-17.56.23:367][319]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.194
-[2015.03.10-17.58.51:848][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002800663A60
-[2015.03.10-17.58.53:068][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat_Inst" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset" SILENT=true
-[2015.03.10-17.58.53:228][978]LogSavePackage: Save=155.117569ms
-[2015.03.10-17.58.53:228][978]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat_Inst3FAC12664534708C93F9F49ED3EA8AD6.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset'
-[2015.03.10-17.59.16:152][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat_Inst" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset" SILENT=true
-[2015.03.10-17.59.16:311][964]LogSavePackage: Save=157.142517ms
-[2015.03.10-17.59.16:311][964]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat_Inst6246FD624A4040B8CA430990475A4F43.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset'
-[2015.03.10-17.59.17:771][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat_Inst" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset" SILENT=true
-[2015.03.10-17.59.17:777][ 27]LogSavePackage: Save=4.109760ms
-[2015.03.10-17.59.17:777][ 27]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat_Inst6DB5655A4EF3EEEC514440A7C1ECA134.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset'
-[2015.03.10-17.59.51:010][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
-[2015.03.10-17.59.55:859][560]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2015.03.10-18.00.15:277][417]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2015.03.10-18.00.15:277][417]PIE: New page: PIE session: SideScrollerExampleMap (Mar 10, 2015, 8:00:15 PM)
-[2015.03.10-18.00.15:313][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021991s)
-[2015.03.10-18.00.15:314][417]LogPlayLevel: PIE: World Init took: (0.001453s)
-[2015.03.10-18.00.15:314][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.023655s)
-[2015.03.10-18.00.15:360][417]LogWorld: Game class is 'SideScrollerGameMode_C'
-[2015.03.10-18.00.15:362][417]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2015.03.10-18.00.15:367][417]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.10-19.00.15
-[2015.03.10-18.00.15:367][417]LogWorld: Bringing up level for play took: 0.004761
-[2015.03.10-18.00.15:369][417]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.196
-[2015.03.10-18.00.19:993][667]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SkySphereBlueprint"
-[2015.03.10-18.00.23:338][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
-[2015.03.10-18.00.23:338][783]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.LEdge2_3"
-[2015.03.10-18.00.25:478][848]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
-[2015.03.10-18.00.25:478][848]LogSelection:Warning: PIE object was selected: "SideScrollerCharacter_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_178"
-[2015.03.10-18.00.42:368][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CharacterMat_Inst" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset" SILENT=true
-[2015.03.10-18.00.42:522][339]LogSavePackage: Save=151.980301ms
-[2015.03.10-18.00.42:522][339]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/CharacterMat_Inst4E5EC9A9464300C479685C9E6381B1DE.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Materials/CharacterMat_Inst.uasset'
-[2015.03.10-18.00.45:341][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002843A48400
-[2015.03.10-18.00.45:831][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000283FEC7A60
-[2015.03.10-18.00.45:831][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000280496A160
-[2015.03.10-18.00.45:983][481]Cmd: QUIT_EDITOR
-[2015.03.10-18.00.46:192][481]LogExit: Preparing to exit.
-[2015.03.10-18.00.47:104][481]LogExit: Editor shut down
-[2015.03.10-18.00.47:104][481]LogExit: Transaction tracking system shut down
-[2015.03.10-18.00.47:104][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000287FEC20C0
-[2015.03.10-18.00.47:105][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000287DCC9F80
-[2015.03.10-18.00.47:105][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000280D911DA0
-[2015.03.10-18.00.47:105][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000287E5A0540
-[2015.03.10-18.00.47:105][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000287E5A02C0
-[2015.03.10-18.00.47:105][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000280EF1D580
-[2015.03.10-18.00.47:105][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000280F844900
-[2015.03.10-18.00.47:105][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002840DC13A0
-[2015.03.10-18.00.47:219][481]LogExit: Object subsystem successfully closed.
-[2015.03.10-18.00.47:257][481]LogModuleManager: Shutting down and abandoning module MaterialEditor (180)
-[2015.03.10-18.00.47:257][481]LogModuleManager: Shutting down and abandoning module WidgetCarousel (179)
-[2015.03.10-18.00.47:257][481]LogModuleManager: Shutting down and abandoning module AddContentDialog (178)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.03.10-18.00.47:258][481]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.03.10-18.00.47:259][481]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.03.10-18.00.47:652][481]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.03.10-18.00.47:683][481]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.03.10-18.00.47:683][481]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.03.10-18.00.47:683][481]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.03.10-18.00.47:684][481]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.03.10-18.00.47:709][481]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.03.10-18.00.47:710][481]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.03.10-18.00.47:710][481]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.03.10-18.00.47:710][481]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.03.10-18.00.47:811][481]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.03.10-18.00.47:811][481]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.03.10-18.00.47:813][481]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.03.10-18.00.47:814][481]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.03.10-18.00.47:814][481]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.03.10-18.00.47:814][481]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.03.10-18.00.47:814][481]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.03.10-18.00.47:814][481]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.03.10-18.00.47:816][481]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.03.10-18.00.47:844][481]LogDerivedDataCache: Shutdown
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.03.10-18.00.47:844][481]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.03.10-18.00.47:846][481]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.03.10-18.00.47:847][481]LogExit: Exiting.
-[2015.03.10-18.00.47:863][481]Log file closed, 03/10/15 19:00:47
+[2015.03.15-17.19.19:238][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.15-17.19.19:289][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.15-17.19.19:298][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.15-17.19.19:306][  0]LogInit: Object subsystem initialized
+[2015.03.15-17.19.19:308][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.15-17.19.19:308][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/workspace/Evolve/EvolveProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.15-17.19.19:308][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.15-17.19.19:308][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/workspace/Evolve/EvolveProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.15-17.19.19:308][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.15-17.19.19:308][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/workspace/Evolve/EvolveProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.15-17.19.19:309][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.15-17.19.19:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.15-17.19.19:323][  0]LogInit: Computer: STARTOP-W230ST
+[2015.03.15-17.19.19:323][  0]LogInit: User: Andreas
+[2015.03.15-17.19.19:323][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.15-17.19.19:323][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2015.03.15-17.19.19:323][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.03.15-17.19.19:323][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.15-17.19.19:323][  0]LogMemory: Process Physical Memory: 46.28 MB used, 46.28 MB peak
+[2015.03.15-17.19.19:323][  0]LogMemory: Process Virtual Memory: 26.77 MB used, 26.77 MB peak
+[2015.03.15-17.19.19:323][  0]LogMemory: Physical Memory: 5275.43 MB used, 16304.36 MB total
+[2015.03.15-17.19.19:323][  0]LogMemory: Virtual Memory: 287.96 MB used, 134217728.00 MB total
+[2015.03.15-17.19.19:351][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M      (Feature Level 11_0)
+[2015.03.15-17.19.19:351][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.03.15-17.19.19:364][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M      (Feature Level 11_0)
+[2015.03.15-17.19.19:364][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.03.15-17.19.19:365][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.15-17.19.19:365][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.03.15-17.19.19:365][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.15-17.19.19:370][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.15-17.19.19:380][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.15-17.19.19:439][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.15-17.19.19:564][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.15-17.19.21:686][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.15-17.19.22:191][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.15-17.19.22:238][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.15-17.19.22:284][  0]LogDerivedDataCache: Loaded boot cache 0.05s 51MB C:/Users/Andreas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.15-17.19.22:284][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Andreas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.15-17.19.22:284][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../workspace/Evolve/EvolveProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.15-17.19.22:284][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.15-17.19.22:396][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.15-17.19.22:408][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andreas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.15-17.19.22:652][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.15-17.19.22:652][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.15-17.19.23:047][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.15-17.19.23:100][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.15-17.19.23:757][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.15-17.19.23:910][  0]SourceControl: Info Source control is disabled
+[2015.03.15-17.19.23:910][  0]SourceControl: Info Source control is disabled
+[2015.03.15-17.19.23:910][  0]SourceControl: Info Source control is disabled
+[2015.03.15-17.19.23:910][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.15-17.19.23:910][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.15-17.19.23:916][  0]SourceControl: Info Source control is disabled
+[2015.03.15-17.19.24:043][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.15-17.19.24:043][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.15-17.19.24:112][  0]LogEngine: Initializing Engine...
+[2015.03.15-17.19.26:306][  0]LogInit: XAudio2 using 'Pluged in Speakers (3- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.15-17.19.26:326][  0]LogInit: FAudioDevice initialized.
+[2015.03.15-17.19.26:355][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.15-17.19.26:382][  0]LogDerivedDataCache: Saved boot cache 0.03s 51MB C:/Users/Andreas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.15-17.19.26:387][  0]LogInit: Texture streaming: Enabled
+[2015.03.15-17.19.26:571][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.15-17.19.26:571][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.15-17.19.26:571][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.15-17.19.26:571][  0]LogAnalytics: SetUserId e5d5f96340dfecf0ad2a468a637cf62a|55b544c516224e719c43dcdbc0369524|c280a533-d1ed-424a-9933-bf831353bf5a
+[2015.03.15-17.19.26:571][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.15-17.19.26:598][  0]LogInit: Transaction tracking system initialized
+[2015.03.15-17.19.26:768][  0]BlueprintLog: New page: Editor Load
+[2015.03.15-17.19.26:803][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.03.15-17.19.26:803][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.15-17.19.27:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.15-17.19.27:937][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.15-17.19.28:122][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2015.03.15-17.19.28:122][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2015.03.15-17.19.28:122][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2015.03.15-17.19.28:146][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.15-17.19.28:146][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.15-17.19.28:150][  0]LogConsoleResponse:Display: 
+[2015.03.15-17.19.28:523][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.15-17.19.28:622][  0]SourceControl: Info Source control is disabled
+[2015.03.15-17.19.28:622][  0]Cmd: MAP LOAD FILE="../../../../../../workspace/Evolve/EvolveProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.15-17.19.28:640][  0]LightingResults: New page: Lighting Build
+[2015.03.15-17.19.28:648][  0]MapCheck: New page: Map Check
+[2015.03.15-17.19.28:649][  0]LightingResults: New page: Lighting Build
+[2015.03.15-17.19.28:988][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008BEFEFE980
+[2015.03.15-17.19.30:883][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.15-17.19.30:883][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.03.15-17.19.30:884][  0]Cmd: MAP CHECKDEP
+[2015.03.15-17.19.30:884][  0]MapCheck: New page: SideScrollerExampleMap - Mar 15, 2015, 7:19:30 PM
+[2015.03.15-17.19.30:947][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.648ms to complete.
+[2015.03.15-17.19.30:947][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.324
+[2015.03.15-17.19.31:277][  0]LogCollectionManager: Loaded 0 collections in 0.000929 seconds
+[2015.03.15-17.19.31:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 1696 classes and 261 folders.
+[2015.03.15-17.19.31:319][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.03.15-17.19.31:571][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.15-17.19.31:572][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.15-17.19.31:578][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.15-17.19.31:604][  0]LogLoad: Full Startup: 14.29 seconds (BP compile: 0.30 seconds)
+[2015.03.15-17.19.31:963][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.03.15-17.19.32:350][  0]LogRenderer:Warning: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2015.03.15-17.19.33:575][  4]LogAssetRegistry: Asset discovery search completed in 6.7822 seconds
+[2015.03.15-17.20.29:411][273]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.15-17.20.29:411][273]PIE: New page: PIE session: SideScrollerExampleMap (Mar 15, 2015, 7:20:29 PM)
+[2015.03.15-17.20.29:436][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024551s)
+[2015.03.15-17.20.29:437][273]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2015.03.15-17.20.29:437][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025654s)
+[2015.03.15-17.20.29:558][273]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.15-17.20.29:560][273]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.03.15-17.20.29:565][273]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2015.03.15-18.20.29
+[2015.03.15-17.20.29:581][273]LogWorld: Bringing up level for play took: 0.020642
+[2015.03.15-17.20.29:651][273]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.479
+[2015.03.15-17.21.26:579][134]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.15-17.21.29:499][282]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.03.15-17.21.32:168][417]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.15-17.21.35:641][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008BF58B5DA0
+[2015.03.15-17.21.37:968][684]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.15-17.21.45:560][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.03.15-17.21.49:171][287]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.15-17.21.52:344][418]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.15-17.22.41:969][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EndlessTest" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Maps/EndlessTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.15-17.22.42:036][395]LogSavePackage: Save=57.318489ms
+[2015.03.15-17.22.42:036][395]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/EndlessTest26DF68114B2F41C6108370ADE9ECC419.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Maps/EndlessTest.umap'
+[2015.03.15-17.22.42:038][395]LogFileHelpers: Saving map 'EndlessTest' took 0.138
+[2015.03.15-17.22.42:042][395]Cmd: MAP LOAD FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Maps/EndlessTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.15-17.22.42:042][395]LightingResults: New page: Lighting Build
+[2015.03.15-17.22.42:070][395]LoadErrors: New page: Loading map: EndlessTest.umap
+[2015.03.15-17.22.42:087][395]MapCheck: New page: Map Check
+[2015.03.15-17.22.42:087][395]LightingResults: New page: Lighting Build
+[2015.03.15-17.22.42:095][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008BE6CA9940
+[2015.03.15-17.22.42:099][395]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.15-17.22.42:099][395]LogAIModule: Creating AISystem for world EndlessTest
+[2015.03.15-17.22.42:174][395]Cmd: MAP CHECKDEP
+[2015.03.15-17.22.42:174][395]MapCheck: New page: EndlessTest - Mar 15, 2015, 7:22:42 PM
+[2015.03.15-17.22.42:239][395]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.484ms to complete.
+[2015.03.15-17.22.42:240][395]LogFileHelpers: Loading map 'EndlessTest' took 0.200
+[2015.03.15-17.23.01:397][510]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.15-17.23.02:466][562]Cmd: MAP LOAD FILE="../../../../../../workspace/Evolve/EvolveProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.15-17.23.02:466][562]LightingResults: New page: Lighting Build
+[2015.03.15-17.23.02:487][562]LoadErrors: New page: Loading map: SideScrollerExampleMap.umap
+[2015.03.15-17.23.02:487][562]MapCheck: New page: Map Check
+[2015.03.15-17.23.02:487][562]LightingResults: New page: Lighting Build
+[2015.03.15-17.23.02:497][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008BF90F6020
+[2015.03.15-17.23.02:499][562]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.15-17.23.02:499][562]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.03.15-17.23.02:523][562]Cmd: MAP CHECKDEP
+[2015.03.15-17.23.02:523][562]MapCheck: New page: SideScrollerExampleMap - Mar 15, 2015, 7:23:02 PM
+[2015.03.15-17.23.02:588][562]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.329ms to complete.
+[2015.03.15-17.23.02:588][562]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.124
+[2015.03.15-17.23.05:851][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.15-17.23.17:173][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EndlessTest" FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Maps/EndlessTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.15-17.23.18:996][823]LogSavePackage: Save=1810.503052ms
+[2015.03.15-17.23.18:996][823]LogSavePackage: Moving '../../../../../../workspace/Evolve/EvolveProject/Saved/EndlessTest8BA55C764909F30790C7FCB6CBBF1030.tmp' to '../../../../../../workspace/Evolve/EvolveProject/Content/Maps/EndlessTest.umap'
+[2015.03.15-17.23.19:157][823]LogFileHelpers: Saving map 'EndlessTest' took 3.730
+[2015.03.15-17.23.19:844][843]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.15-17.23.20:875][880]Cmd: MAP LOAD FILE="../../../../../../workspace/Evolve/EvolveProject/Content/Maps/EndlessTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.15-17.23.20:875][880]LightingResults: New page: Lighting Build
+[2015.03.15-17.23.20:910][880]LoadErrors: New page: Loading map: EndlessTest.umap
+[2015.03.15-17.23.20:911][880]MapCheck: New page: Map Check
+[2015.03.15-17.23.20:911][880]LightingResults: New page: Lighting Build
+[2015.03.15-17.23.20:919][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008BF5853060
+[2015.03.15-17.23.21:093][880]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.15-17.23.21:094][880]LogAIModule: Creating AISystem for world EndlessTest
+[2015.03.15-17.23.21:120][880]Cmd: MAP CHECKDEP
+[2015.03.15-17.23.21:120][880]MapCheck: New page: EndlessTest - Mar 15, 2015, 7:23:21 PM
+[2015.03.15-17.23.21:186][880]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.307ms to complete.
+[2015.03.15-17.23.21:187][880]LogFileHelpers: Loading map 'EndlessTest' took 0.314
+[2015.03.15-17.23.30:097][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2015.03.15-17.23.30:634][252]Cmd: DELETE
+[2015.03.15-17.23.30:634][252]Cmd: ACTOR DELETE
+[2015.03.15-17.23.30:689][252]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.30:699][252]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.03.15-17.23.30:945][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2015.03.15-17.23.31:024][264]Cmd: DELETE
+[2015.03.15-17.23.31:024][264]Cmd: ACTOR DELETE
+[2015.03.15-17.23.31:026][264]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.31:037][264]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.03.15-17.23.31:409][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
+[2015.03.15-17.23.31:515][281]Cmd: DELETE
+[2015.03.15-17.23.31:515][281]Cmd: ACTOR DELETE
+[2015.03.15-17.23.31:515][281]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.31:525][281]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.03.15-17.23.32:091][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2015.03.15-17.23.32:189][308]Cmd: DELETE
+[2015.03.15-17.23.32:189][308]Cmd: ACTOR DELETE
+[2015.03.15-17.23.32:191][308]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.32:201][308]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.03.15-17.23.33:018][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2015.03.15-17.23.33:130][346]Cmd: DELETE
+[2015.03.15-17.23.33:130][346]Cmd: ACTOR DELETE
+[2015.03.15-17.23.33:131][346]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.33:142][346]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.03.15-17.23.35:126][432]Cmd: TRANSACTION UNDO
+[2015.03.15-17.23.35:126][432]LogEditorTransaction: Undo Delete Actors
+[2015.03.15-17.23.36:527][467]Cmd: DELETE
+[2015.03.15-17.23.36:527][467]Cmd: ACTOR DELETE
+[2015.03.15-17.23.36:528][467]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.36:540][467]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.03.15-17.23.37:076][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge4)
+[2015.03.15-17.23.37:378][493]Cmd: DELETE
+[2015.03.15-17.23.37:379][493]Cmd: ACTOR DELETE
+[2015.03.15-17.23.37:380][493]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.37:393][493]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.03.15-17.23.38:536][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2015.03.15-17.23.38:634][535]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.03.15-17.23.39:711][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2015.03.15-17.23.39:868][584]Cmd: DELETE
+[2015.03.15-17.23.39:868][584]Cmd: ACTOR DELETE
+[2015.03.15-17.23.39:869][584]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.39:881][584]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.03.15-17.23.40:306][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2015.03.15-17.23.40:422][604]Cmd: DELETE
+[2015.03.15-17.23.40:422][604]Cmd: ACTOR DELETE
+[2015.03.15-17.23.40:422][604]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.40:432][604]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2015.03.15-17.23.40:888][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2015.03.15-17.23.41:058][629]Cmd: DELETE
+[2015.03.15-17.23.41:058][629]Cmd: ACTOR DELETE
+[2015.03.15-17.23.41:059][629]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.41:074][629]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.03.15-17.23.41:490][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2015.03.15-17.23.41:714][655]Cmd: DELETE
+[2015.03.15-17.23.41:714][655]Cmd: ACTOR DELETE
+[2015.03.15-17.23.41:716][655]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.41:726][655]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.03.15-17.23.42:190][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge6)
+[2015.03.15-17.23.42:371][681]Cmd: DELETE
+[2015.03.15-17.23.42:371][681]Cmd: ACTOR DELETE
+[2015.03.15-17.23.42:372][681]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.42:384][681]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.03.15-17.23.42:741][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar1)
+[2015.03.15-17.23.42:850][699]Cmd: DELETE
+[2015.03.15-17.23.42:851][699]Cmd: ACTOR DELETE
+[2015.03.15-17.23.42:852][699]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.42:863][699]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.03.15-17.23.43:269][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2015.03.15-17.23.43:379][719]Cmd: DELETE
+[2015.03.15-17.23.43:379][719]Cmd: ACTOR DELETE
+[2015.03.15-17.23.43:380][719]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.43:390][719]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.03.15-17.23.44:501][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.03.15-17.23.45:510][809]Cmd: DELETE
+[2015.03.15-17.23.45:510][809]Cmd: ACTOR DELETE
+[2015.03.15-17.23.45:511][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.15-17.23.45:521][809]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.03.15-17.23.46:241][841]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.15-17.23.46:775][861]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.03.15-17.24.23:574][382]MapCheck: New page: Map Check
+[2015.03.15-17.24.23:667][382]LightingResults: New page: Lighting Build - Mar 15, 2015, 7:24:23 PM
+[2015.03.15-17.24.27:363][382]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.15-17.24.27:363][382]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.15-17.24.27:363][382]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.15-17.24.27:363][382]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.15-17.24.27:363][382]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.15-17.24.27:584][382]LogEditorBuildUtils: Build time 0:00:03
+[2015.03.15-17.25.20:663][623]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.03.15-17.25.31:324][876]Job is a success!
+[2015.03.15-17.25.33:280][877]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.03.15-17.25.34:919][877]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.03.15-17.25.34:922][877]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.15-17.25.34:960][877]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.03.15-17.25.37:369][877]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.03.15-17.25.37:859][877]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.03.15-17.25.38:076][877]Lightmass on STARTOP-W230ST: 1:09 min total, 132 ms importing, 0 ms setup, 742 ms photons, 1:08 min processing, 0 ms extra exporting [2/2 mappings]. Threads: 8:02 min total, 1:00 min processing.
+[2015.03.15-17.25.38:111][877]LogStaticLightingSystem: Illumination: 1:14 min (5.80 sec encoding lightmaps)
+[2015.03.15-17.25.38:111][877]LogStaticLightingSystem: Lightmap texture memory:  21.3 MB (21.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.03.15-17.25.38:111][877]LogStaticLightingSystem: Shadowmap texture memory: 42.7 MB (42.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.03.15-17.25.38:392][878]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.15-17.25.38:392][878]MapCheck: New page: EndlessTest - Mar 15, 2015, 7:25:38 PM
+[2015.03.15-17.25.38:472][878]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.376ms to complete.
+[2015.03.15-17.25.44:255][ 26]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2015.03.15-17.25.44:287][ 26]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.03.15-17.26.11:101][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.15-17.26.38:768][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.15-17.26.40:404][321]LogEditorActor: Deleted Actor: TextRenderActor
+[2015.03.15-17.26.40:430][321]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.03.15-17.27.05:001][291]Cmd: DELETE
+[2015.03.15-17.27.05:001][291]Cmd: ACTOR DELETE
+[2015.03.15-17.27.05:003][291]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2015.03.15-17.27.05:028][291]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2015.03.15-17.27.23:020][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.15-17.27.59:404][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.15-17.28.24:278][450]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (Global PostProcess)
+[2015.03.15-17.28.28:666][638]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.15-17.28.30:126][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.15-17.28.35:027][892]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.15-17.28.35:028][892]PIE: New page: PIE session: EndlessTest (Mar 15, 2015, 7:28:35 PM)
+[2015.03.15-17.28.35:122][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093296s)
+[2015.03.15-17.28.35:122][892]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2015.03.15-17.28.35:122][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndlessTest.EndlessTest to /Game/Maps/UEDPIE_0_EndlessTest.EndlessTest (0.094064s)
+[2015.03.15-17.28.35:163][892]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.15-17.28.35:165][892]LogAIModule: Creating AISystem for world EndlessTest
+[2015.03.15-17.28.35:167][892]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndlessTest.EndlessTest up for play (max tick rate 60) at 2015.03.15-18.28.35
+[2015.03.15-17.28.35:167][892]LogWorld: Bringing up level for play took: 0.002310
+[2015.03.15-17.28.35:172][892]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EndlessTest -0
+[2015.03.15-17.28.38:132][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008BEB9719E0
+[2015.03.15-17.28.40:233][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.15-17.28.51:710][616]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.15-17.28.52:880][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.03.15-17.29.00:017][950]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.03.15-17.29.03:986][114]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.03.15-17.29.23:241][763]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.15-17.29.23:241][763]PIE: New page: PIE session: EndlessTest (Mar 15, 2015, 7:29:23 PM)
+[2015.03.15-17.29.23:270][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017423s)
+[2015.03.15-17.29.23:271][763]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2015.03.15-17.29.23:272][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndlessTest.EndlessTest to /Game/Maps/UEDPIE_0_EndlessTest.EndlessTest (0.018691s)
+[2015.03.15-17.29.23:341][763]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.15-17.29.23:343][763]LogAIModule: Creating AISystem for world EndlessTest
+[2015.03.15-17.29.23:345][763]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndlessTest.EndlessTest up for play (max tick rate 60) at 2015.03.15-18.29.23
+[2015.03.15-17.29.23:345][763]LogWorld: Bringing up level for play took: 0.002195
+[2015.03.15-17.29.23:349][763]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EndlessTest 0.176
+[2015.03.15-17.29.27:310][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008BE940D120
+[2015.03.15-17.29.29:639][ 63]MapCheck: New page: Map Check
+[2015.03.15-17.29.29:672][ 63]LightingResults: New page: Lighting Build - Mar 15, 2015, 7:29:29 PM
+[2015.03.15-17.29.34:225][ 63]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.03.15-17.29.34:225][ 63]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.15-17.29.34:225][ 63]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.15-17.29.34:225][ 63]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.15-17.29.34:225][ 63]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.15-17.29.34:225][ 63]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.15-17.29.34:314][ 63]LogEditorBuildUtils: Build time 0:00:04
+[2015.03.15-17.30.22:916][817]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.15-17.30.22:916][817]PIE: New page: PIE session: EndlessTest (Mar 15, 2015, 7:30:22 PM)
+[2015.03.15-17.30.22:944][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020152s)
+[2015.03.15-17.30.22:945][817]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2015.03.15-17.30.22:946][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EndlessTest.EndlessTest to /Game/Maps/UEDPIE_0_EndlessTest.EndlessTest (0.021531s)
+[2015.03.15-17.30.23:011][817]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.15-17.30.23:014][817]LogAIModule: Creating AISystem for world EndlessTest
+[2015.03.15-17.30.23:017][817]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EndlessTest.EndlessTest up for play (max tick rate 60) at 2015.03.15-18.30.23
+[2015.03.15-17.30.23:018][817]LogWorld: Bringing up level for play took: 0.003521
+[2015.03.15-17.30.23:020][817]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EndlessTest -0.153
+[2015.03.15-17.30.45:587][763]Job is a success!
